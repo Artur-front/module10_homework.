@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  #messages {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #messages li {
+    margin-bottom: 10px;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #messages li:nth-child(even) {
+    background-color: #d1ecf1;
+  }
+  
+  #message-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  #send-button,
+  #location-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,17 @@
+#icon-button {
+  padding: 10px 50px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#icon {
+  width: 16px;
+  height: 16px;
+}
+
+#icon-button:hover #icon {
+  content: url("icon_02.svg");
+}
